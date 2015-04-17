@@ -3,29 +3,15 @@ body{
   padding:10px;
   padding-top:20px;
 }
-header{
-  background:#ccc;
-  }
-nav{
-  background:#ccc;
-}
-#submit{
-  width:8.33333333%;
-}
-#search{
-  width:100%;
-}
+header{background:#ccc;}
+nav{background:#ccc;}
 .headerphoto{
   align:center;
   max-width:100%;
   max-height:5em;
 }
-.userProfile{
-  text-align:center;
-}
-.8col{
-  width:12.5%;
-}
+.userProfile{text-align:center;}
+.8col{width:12.5%;}
 .btnsearch{
 	background-image: url(../img/search_sm.png);
 	background-repeat: no-repeat;
@@ -37,6 +23,8 @@ nav{
 .margin{margin:10px;}
 .testcolor{background:#ccc;}
 .center{text-align:center;}
-.inline{
-	display: inline-block;
-}
+.inline{display: inline-block;}
+.submitbtn{
+  float:right;
+  width:5em;
+  }
