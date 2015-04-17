@@ -38,12 +38,14 @@ body{
   border-radius:1em;
   background:#008;
 }
-.panel{
+.panels{
 	padding: 10px;
 	border-radius: 1em;
+  background:#aaa;
 }
 #supertubosimage{
   border-radius:1em;
   margin:1em;
   padding:1em;
 }
+.rbord{border-right:1px solid #000;}
