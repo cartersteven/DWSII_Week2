@@ -35,6 +35,15 @@ body{
 .imgfull{width:100%;}
 .alrt{text-align:right;}
 .member{
-  border-radius:8px;
+  border-radius:1em;
   background:#008;
+}
+.panel{
+	padding: 10px;
+	border-radius: 1em;
+}
+#supertubosimage{
+  border-radius:1em;
+  margin:1em;
+  padding:1em;
 }
