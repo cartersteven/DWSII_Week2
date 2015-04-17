@@ -1,0 +1,42 @@
+/* this is a custom CSS Stylesheet */
+body{
+  padding:10px;
+  padding-top:20px;
+}
+header{
+  background:#ccc;
+  }
+nav{
+  background:#ccc;
+}
+#submit{
+  width:8.33333333%;
+}
+#search{
+  width:100%;
+}
+.headerphoto{
+  align:center;
+  max-width:100%;
+  max-height:5em;
+}
+.userProfile{
+  text-align:center;
+}
+.8col{
+  width:12.5%;
+}
+.btnsearch{
+	background-image: url(../img/search_sm.png);
+	background-repeat: no-repeat;
+}
+.btnuser{
+	background-image: url(../img/user_sm.png);
+	background-repeat: no-repeat;
+}
+.margin{margin:10px;}
+.testcolor{background:#ccc;}
+.center{text-align:center;}
+.inline{
+	display: inline-block;
+}
