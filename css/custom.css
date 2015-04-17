@@ -1,10 +1,11 @@
 /* this is a custom CSS Stylesheet */
 body{
-  padding:10px;
-  padding-top:20px;
+	padding: 10px;
+	padding-top: 20px;
+	background-attachment: scroll;
+	background-image: url(../img/wood_6.png);
+	background-repeat: repeat;
 }
-header{background:#ccc;}
-nav{background:#ccc;}
 .headerphoto{
   align:center;
   max-width:100%;
@@ -15,10 +16,12 @@ nav{background:#ccc;}
 .btnsearch{
 	background-image: url(../img/search_sm.png);
 	background-repeat: no-repeat;
+	background-position: -0.2em;
 }
 .btnuser{
 	background-image: url(../img/user_sm.png);
 	background-repeat: no-repeat;
+	background-position: -0.2em;
 }
 .margin{margin:10px;}
 .testcolor{background:#ccc;}
@@ -31,3 +34,7 @@ nav{background:#ccc;}
 .inptwd{width:20em;}
 .imgfull{width:100%;}
 .alrt{text-align:right;}
+.member{
+  border-radius:8px;
+  background:#008;
+}
