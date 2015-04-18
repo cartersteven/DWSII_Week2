@@ -3,7 +3,8 @@ body{
 	padding: 10px;
 	padding-top: 20px;
 	background-attachment: scroll;
-	background-image: url(../img/wood_6.png);
+  background:#ddd;
+	/*background-image: url(../img/wood_6.png);*/
 	background-repeat: repeat;
 }
 .headerphoto{
@@ -36,7 +37,7 @@ body{
 .alrt{text-align:right;}
 .member{
   border-radius:1em;
-  background:#008;
+  background:#120f69;
 }
 .panels{
 	padding: 10px;
@@ -49,3 +50,27 @@ body{
   padding:1em;
 }
 .rbord{border-right:1px solid #000;}
+.btn-primary {
+  color: #fff;
+  background-color: #120f69;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #337ab7;
+}
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  color: #fff;
+  background-color: #337ab7;
+}
+.list-group-item.active > .badge,
+.nav-pills > .active > a > .badge {
+  color: #fff;
+  background-color: #120f69;
+}
